@@ -6,8 +6,74 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 20 Aug 2022 23:04:39 -0400</lastBuildDate>
+        <lastBuildDate>Wed, 31 Aug 2022 12:46:01 -0400</lastBuildDate>
         <atom:link href="https://thacher.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Deploy Hugo Site to cPanel</title>
+            <link>https://thacher.me/posts/deploy-hugo-site-to-cpanel/</link>
+            <pubDate>Wed, 31 Aug 2022 12:46:01 -0400</pubDate>
+            
+            <guid>https://thacher.me/posts/deploy-hugo-site-to-cpanel/</guid>
+            <description>This website is built using a technology called Hugo. Hugo is brilliant because you can write as little or as much html, css, and js as you want. Written in Go, Hugo is a lightweight and immensely fast content management system. Think Wordpress, but using Markdown instead of PHP. Well I love it and I&amp;rsquo;ve committed to using it for my personal site. Now that I have a few weeks&amp;rsquo; experience under my belt, it&amp;rsquo;s time to get serious about deployment and organization.</description>
+            <content type="html"><![CDATA[<p>This website is built using a technology called <a href="https://gohugo.io/">Hugo</a>. Hugo is brilliant because you can write as little or as much html, css, and js as you want. Written in <a href="https://go.dev/">Go</a>, Hugo is a lightweight and immensely fast content management system. Think Wordpress, but using Markdown instead of PHP. Well I love it and I&rsquo;ve committed to using it for my personal site. Now that I have a few weeks&rsquo; experience under my belt, it&rsquo;s time to get serious about deployment and organization. And yes, that means no more drag and drop onto Cyberduck. One of the tradeoffs of using Hugo over something Wordpress is that it doesn&rsquo;t come with any deployment tools or web host integrations. So if you&rsquo;d like to get your generated web documents onto your host, you have to do it all manually. Or&hellip; you could automate it using GitHub workflows. At this point, you can probably guess where this is going. Let&rsquo;s get started!</p>
+<h2 id="step-1-git-init">Step 1: git init</h2>
+<p>Initialize a git repo in the <em>/public</em> folder of your Hugo site directory. If you host anything else where you&rsquo;ll be deploying your hugo site, add those directories to your gitignore. Make a matching repo on GitHub. Add your files, commit, push.</p>
+<h2 id="step-2-ftp-accounts">Step 2: FTP Accounts</h2>
+<p>Create a new FTP account on cPanel. Give it a username and password that you&rsquo;ll remember and tell it where the root directory should be. In my case, I am deploying directly to the public_html folder. You can use any</p>
+
+    <img src="/images/dev-posting/createFtpAccount.png"  alt="FTP Account Creation"  class="center"  style="maximum-height: 600px;"  />
+
+
+<h2 id="step-3-secrets">Step 3: Secrets</h2>
+<p>Add the FTP server address, username, and password to your git repo&rsquo;s secrets at Settings &gt; Secrets &gt; Action Secrets</p>
+
+    <img src="/images/dev-posting/addRepoSecrets.png"  alt="FTP Account Creation"  class="center"  style="maximum-height: 600px;"  />
+
+
+<p> </p>
+
+    <img src="/images/dev-posting/enterSecrets.png"  alt="FTP Account Creation"  class="center"  style="maximum-height: 600px;"  />
+
+
+<h2 id="step-4-workflow">Step 4: Workflow</h2>
+<p>Create a workflow on GitHub at Actions &gt; set up a workflow yourself.</p>
+
+    <img src="/images/dev-posting/createNewWorkflowGitHub.png"  alt="FTP Account Creation"  class="center"  style="maximum-height: 600px;"  />
+
+
+<p> </p>
+
+    <img src="/images/dev-posting/workflowYml.png"  alt="FTP Account Creation"  class="center"  style="maximum-height: 600px;"  />
+
+
+<p> </p>
+<p>Enter the following code into the yml file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">Publish Website to CPanel</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">on</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">push</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">branches</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#ae81ff">master</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">jobs</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">FTP-Deploy-Action</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">name</span>: <span style="color:#ae81ff">FTP-Deploy-Action</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">runs-on</span>: <span style="color:#ae81ff">ubuntu-latest</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">steps</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/checkout@v2.1.0</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">fetch-depth</span>: <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">FTP-Deploy-Action</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">SamKirkland/FTP-Deploy-Action@3.1.1</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">ftp-server</span>: <span style="color:#ae81ff">${{ secrets.FTP_SERVER }}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">ftp-username</span>: <span style="color:#ae81ff">${{ secrets.FTP_USERNAME }}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">ftp-password</span>: <span style="color:#ae81ff">${{ secrets.FTP_PASSWORD }}</span>
+</span></span></code></pre></div><p>Click &ldquo;Start commit&rdquo; and commit the new workflow file to the repo.</p>
+<h2 id="step-5-test">Step 5: Test</h2>
+<p>Now, when you push any changes to the repo from you code editor, the changes will be reflected on you hosting platform within a few seconds. In my testing, I find it takes anywhere form 10 seconds to a minute for the workflow to finish running. I would imagine this time increases as the changes get bigger.</p>
+<p>Go ahead and run &ldquo;hugo&rdquo; from your site&rsquo;s project folder and then add and commit the changes from the <em>/public</em> folder once the build completes. When you push your changes, look at the workflow in the Actions tab on your GitHub repo. You should see the workflow in progress as your updates push to your host.</p>
+]]></content>
+        </item>
         
         <item>
             <title>The Best Rum</title>
