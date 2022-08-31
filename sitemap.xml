@@ -2,25 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://thacher.me/posts/password-visibility-icons/</loc>
-    <lastmod>2022-08-24T16:38:14-04:00</lastmod>
-  </url><url>
-    <loc>https://thacher.me/posts/</loc>
-    <lastmod>2022-08-24T16:38:14-04:00</lastmod>
-  </url><url>
-    <loc>https://thacher.me/tags/</loc>
-    <lastmod>2022-08-24T16:38:14-04:00</lastmod>
-  </url><url>
-    <loc>https://thacher.me/</loc>
-    <lastmod>2022-08-24T16:38:14-04:00</lastmod>
-  </url><url>
-    <loc>https://thacher.me/tags/untagged/</loc>
-    <lastmod>2022-08-24T16:38:14-04:00</lastmod>
-  </url><url>
     <loc>https://thacher.me/tags/mixology/</loc>
     <lastmod>2022-08-20T23:04:39-04:00</lastmod>
   </url><url>
+    <loc>https://thacher.me/posts/</loc>
+    <lastmod>2022-08-20T23:04:39-04:00</lastmod>
+  </url><url>
     <loc>https://thacher.me/tags/rum/</loc>
+    <lastmod>2022-08-20T23:04:39-04:00</lastmod>
+  </url><url>
+    <loc>https://thacher.me/tags/</loc>
+    <lastmod>2022-08-20T23:04:39-04:00</lastmod>
+  </url><url>
+    <loc>https://thacher.me/</loc>
     <lastmod>2022-08-20T23:04:39-04:00</lastmod>
   </url><url>
     <loc>https://thacher.me/posts/the-best-rum/</loc>
