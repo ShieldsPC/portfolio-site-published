@@ -72,6 +72,7 @@
 <h2 id="step-5-test">Step 5: Test</h2>
 <p>Now, when you push any changes to the repo from you code editor, the changes will be reflected on you hosting platform within a few seconds. In my testing, I find it takes anywhere form 10 seconds to a minute for the workflow to finish running. I would imagine this time increases as the changes get bigger.</p>
 <p>Go ahead and run &ldquo;hugo&rdquo; from your site&rsquo;s project folder and then add and commit the changes from the <em>/public</em> folder once the build completes. When you push your changes, look at the workflow in the Actions tab on your GitHub repo. You should see the workflow in progress as your updates push to your host.</p>
+<p>Congrats! You&rsquo;re now a devops engineer.</p>
 ]]></content>
         </item>
         
