@@ -63,16 +63,18 @@
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">with</span>:
 </span></span><span style="display:flex;"><span>        <span style="color:#f92672">fetch-depth</span>: <span style="color:#ae81ff">2</span>
 </span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">FTP-Deploy-Action</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">SamKirkland/FTP-Deploy-Action@3.1.1</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">SamKirkland/FTP-Deploy-Action@4.0.0</span>
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">with</span>:
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">ftp-server</span>: <span style="color:#ae81ff">${{ secrets.FTP_SERVER }}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">ftp-username</span>: <span style="color:#ae81ff">${{ secrets.FTP_USERNAME }}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">ftp-password</span>: <span style="color:#ae81ff">${{ secrets.FTP_PASSWORD }}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">server</span>: <span style="color:#ae81ff">${{ secrets.FTP_SERVER }}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">username</span>: <span style="color:#ae81ff">${{ secrets.FTP_USERNAME }}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">password</span>: <span style="color:#ae81ff">${{ secrets.FTP_PASSWORD }}</span>
 </span></span></code></pre></div><p>Click &ldquo;Start commit&rdquo; and commit the new workflow file to the repo.</p>
 <h2 id="step-5-test">Step 5: Test</h2>
 <p>Now, when you push any changes to the repo from you code editor, the changes will be reflected on you hosting platform within a few seconds. In my testing, I find it takes anywhere form 10 seconds to a minute for the workflow to finish running. I would imagine this time increases as the changes get bigger.</p>
 <p>Go ahead and run &ldquo;hugo&rdquo; from your site&rsquo;s project folder and then add and commit the changes from the <em>/public</em> folder once the build completes. When you push your changes, look at the workflow in the Actions tab on your GitHub repo. You should see the workflow in progress as your updates push to your host.</p>
 <p>Congrats! You&rsquo;re now a devops engineer.</p>
+<h2 id="may-2023-update">May, 2023 Update</h2>
+<p>There was an issue with FTP Deploy v3.1.1, so I&rsquo;ve updated my action script to 4.0.0. With this change, you also need to update your &ldquo;with&rdquo; params. The code block above is working as of May 28, 2023</p>
 ]]></content>
         </item>
         
