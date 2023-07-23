@@ -340,7 +340,7 @@
 <h2 id="step-1-git-init">Step 1: git init</h2>
 <p>Initialize a git repo in the <em>/public</em> folder of your Hugo site directory. If you host anything else where you&rsquo;ll be deploying your hugo site, add those directories to your gitignore. Make a matching repo on GitHub. Add your files, commit, push.</p>
 <h2 id="step-2-ftp-accounts">Step 2: FTP Accounts</h2>
-<p>Create a new FTP account on cPanel. Give it a username and password that you&rsquo;ll remember and tell it where the root directory should be. In my case, I am deploying directly to the public_html folder. You can use any</p>
+<p>Create a new FTP account on cPanel. Give it a username and password that you&rsquo;ll remember and tell it where the root directory should be. In my case, I am deploying directly to the <strong>public_html</strong> folder. If you&rsquo;re using an add-on domain, make sure you use the root folder of your add-on domain.</p>
 
     <img src="/images/dev-posting/createFtpAccount.png"  alt="FTP Account Creation"  class="center"  style="maximum-height: 600px;"  />
 
