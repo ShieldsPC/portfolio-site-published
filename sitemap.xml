@@ -2,25 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://thacher.me/posts/</loc>
-    <lastmod>2023-05-31T17:54:15-04:00</lastmod>
-  </url><url>
-    <loc>https://thacher.me/posts/smugglers-cove-rum-list/</loc>
-    <lastmod>2023-05-31T17:54:15-04:00</lastmod>
-  </url><url>
-    <loc>https://thacher.me/tags/</loc>
-    <lastmod>2023-05-31T17:54:15-04:00</lastmod>
-  </url><url>
-    <loc>https://thacher.me/</loc>
-    <lastmod>2023-05-31T17:54:15-04:00</lastmod>
-  </url><url>
-    <loc>https://thacher.me/tags/untagged/</loc>
-    <lastmod>2023-05-31T17:54:15-04:00</lastmod>
-  </url><url>
     <loc>https://thacher.me/posts/basic-bar-tools/</loc>
     <lastmod>2023-05-27T22:50:19-04:00</lastmod>
   </url><url>
     <loc>https://thacher.me/tags/mixology/</loc>
+    <lastmod>2023-05-27T22:50:19-04:00</lastmod>
+  </url><url>
+    <loc>https://thacher.me/posts/</loc>
+    <lastmod>2023-05-27T22:50:19-04:00</lastmod>
+  </url><url>
+    <loc>https://thacher.me/tags/</loc>
+    <lastmod>2023-05-27T22:50:19-04:00</lastmod>
+  </url><url>
+    <loc>https://thacher.me/</loc>
     <lastmod>2023-05-27T22:50:19-04:00</lastmod>
   </url><url>
     <loc>https://thacher.me/posts/deploy-hugo-site-to-cpanel/</loc>
@@ -28,12 +22,6 @@
   </url><url>
     <loc>https://thacher.me/tags/dev/</loc>
     <lastmod>2022-08-31T12:46:01-04:00</lastmod>
-  </url><url>
-    <loc>https://thacher.me/tags/rum/</loc>
-    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thacher.me/posts/the-best-rum/</loc>
-    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thacher.me/about/</loc>
     <lastmod>2022-08-17T21:50:56-04:00</lastmod>
