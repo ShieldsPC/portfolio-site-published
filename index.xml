@@ -7,15 +7,8 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 27 May 2023 22:50:19 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 31 Aug 2022 12:46:01 -0400</lastBuildDate>
     <atom:link href="https://thacher.me/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Basic Bar Tools</title>
-      <link>https://thacher.me/posts/basic-bar-tools/</link>
-      <pubDate>Sat, 27 May 2023 22:50:19 -0400</pubDate>
-      <guid>https://thacher.me/posts/basic-bar-tools/</guid>
-      <description>So you want to mix drinks. You&amp;rsquo;ll need some tools to get started. In this post, we&amp;rsquo;ll walk through what you&amp;rsquo;ll need, the brands and products I recommend, and what to avoid. Everything you need can be found on Amazon and is relatively cheap. If you just want to pick up an easy starter kit, grab the Barfly Essential Kit. If you&amp;rsquo;d rather assemble your kit on your own, this list will help you figure out what you need.</description>
-    </item>
     <item>
       <title>Deploy Hugo Site to cPanel</title>
       <link>https://thacher.me/posts/deploy-hugo-site-to-cpanel/</link>
@@ -28,8 +21,7 @@
       <link>https://thacher.me/about/</link>
       <pubDate>Wed, 17 Aug 2022 21:50:56 -0400</pubDate>
       <guid>https://thacher.me/about/</guid>
-      <description>Hi. My name is Thacher. I&amp;rsquo;m a UX designer with too many hobbies. Among them are driving, tech, coding, and mixology. On this site, you&amp;rsquo;ll find a collection of ramblings about things that I find interesting, my professional portfolio, and a guide to being a competent home bartender. Until further notice, this site is still heavily under development and incomplete. Thanks for dropping by!
-2018 :| UNC Charlotte - Bachelor of Computer Science - Human-Computer Interaction focus, Psychology Minor</description>
+      <description>Hi! My name is Thacher. Like Becky or Margaret. I&amp;rsquo;m a UX designer in NC and I&amp;rsquo;m mildly obsessed with learning new things. As a UX designer, I strive to make complicated tasks easy and delightful. I take great pleasure in figuring out new ways to do things and having fun in the process. Having worked in a lot of industries, UX is the only one that&amp;rsquo;s really gotten me out of bed in the morning.</description>
     </item>
     <item>
       <title>ClassMate</title>
