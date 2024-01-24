@@ -11,9 +11,9 @@
     <atom:link href="https://thacher.me/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modern Web App Authentication</title>
-      <link>https://thacher.me/portfolio/caravel_login/</link>
+      <link>https://thacher.me/portfolio/caravel-login/</link>
       <pubDate>Wed, 24 Jan 2024 13:13:47 -0500</pubDate>
-      <guid>https://thacher.me/portfolio/caravel_login/</guid>
+      <guid>https://thacher.me/portfolio/caravel-login/</guid>
       <description>A high-fidelity authentication experience I designed for a friend&amp;rsquo;s startup.</description>
     </item>
     <item>
