@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://thacher.me/portfolio/</loc>
+    <loc>https://thacher.me/posts/</loc>
     <lastmod>2024-01-28T16:40:30-05:00</lastmod>
   </url><url>
-    <loc>https://thacher.me/portfolio/working-with-product/</loc>
+    <loc>https://thacher.me/posts/working-with-product/</loc>
     <lastmod>2024-01-28T16:40:30-05:00</lastmod>
   </url><url>
     <loc>https://thacher.me/</loc>
     <lastmod>2024-01-28T16:40:30-05:00</lastmod>
   </url><url>
     <loc>https://thacher.me/portfolio/caravel-login/</loc>
+    <lastmod>2024-01-24T13:13:47-05:00</lastmod>
+  </url><url>
+    <loc>https://thacher.me/portfolio/</loc>
     <lastmod>2024-01-24T13:13:47-05:00</lastmod>
   </url><url>
     <loc>https://thacher.me/portfolio/negotiate/</loc>
@@ -24,9 +27,6 @@
     <lastmod>2022-08-31T12:46:01-04:00</lastmod>
   </url><url>
     <loc>https://thacher.me/tags/dev/</loc>
-    <lastmod>2022-08-31T12:46:01-04:00</lastmod>
-  </url><url>
-    <loc>https://thacher.me/posts/</loc>
     <lastmod>2022-08-31T12:46:01-04:00</lastmod>
   </url><url>
     <loc>https://thacher.me/tags/</loc>
