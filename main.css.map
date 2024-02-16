@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/thacher/Documents/Web Development/thacher.me/new-site",
+	"sourceRoot": "/Users/thacher/Documents/Web Development/thacher.me/Portfolio",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",

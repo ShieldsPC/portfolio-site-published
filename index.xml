@@ -18,13 +18,6 @@
 The Relationship During my time as a Senior User Experience Designer, I&amp;rsquo;ve worked closely with several key stakeholders for each of my projects.</description>
     </item>
     <item>
-      <title>Modern Web App Authentication</title>
-      <link>https://thacher.me/portfolio/caravel-login/</link>
-      <pubDate>Wed, 24 Jan 2024 13:13:47 -0500</pubDate>
-      <guid>https://thacher.me/portfolio/caravel-login/</guid>
-      <description>A high-fidelity authentication experience I designed for a cloud-based retail suite.</description>
-    </item>
-    <item>
       <title>Negotiation App</title>
       <link>https://thacher.me/portfolio/negotiate/</link>
       <pubDate>Wed, 24 Jan 2024 12:17:22 -0500</pubDate>
@@ -44,14 +37,14 @@ Problem Statement Negotiating on digital marketplaces typically follows a consis
       <link>https://thacher.me/posts/deploy-hugo-site-to-cpanel/</link>
       <pubDate>Wed, 31 Aug 2022 12:46:01 -0400</pubDate>
       <guid>https://thacher.me/posts/deploy-hugo-site-to-cpanel/</guid>
-      <description>This website is built using a technology called Hugo. Hugo is brilliant because you can write as little or as much html, css, and js as you want. Written in Go, Hugo is a lightweight and immensely fast content management system. Think Wordpress, but using Markdown instead of PHP. Well I love it and I&amp;rsquo;ve committed to using it for my personal site. Now that I have a few weeks&amp;rsquo; experience under my belt, it&amp;rsquo;s time to get serious about deployment and organization.</description>
+      <description>This website is built using a technology called Hugo. Hugo is brilliant because you can write as little or as much html, css, and js as you want. Written in Go, Hugo is a lightweight and immensely fast static site generator. Think Wordpress, but using Markdown instead of PHP. Well I love it and I&amp;rsquo;ve committed to using it for my personal site. Now that I have a few weeks&amp;rsquo; experience under my belt, it&amp;rsquo;s time to get serious about deployment and organization.</description>
     </item>
     <item>
       <title>About Me</title>
       <link>https://thacher.me/about/</link>
       <pubDate>Wed, 17 Aug 2022 21:50:56 -0400</pubDate>
       <guid>https://thacher.me/about/</guid>
-      <description>Hi! My name is Thacher. Like Becky or Margaret. I&amp;rsquo;m a UX designer in NC and I&amp;rsquo;m mildly obsessed with learning new things. As a UX designer, I strive to make complicated tasks easy and delightful. I take great pleasure in figuring out new ways to do things and having fun in the process. Having worked in a lot of industries, UX is the only one that&amp;rsquo;s really gotten me out of bed in the morning.</description>
+      <description>Hi! My name is Thacher. Like Becky or Margaret. I&amp;rsquo;m a Senior User Experience designer in North Carolina and I&amp;rsquo;m hooked on learning new things. As a UX designer, I strive to make complicated tasks easy and delightful. I take great pleasure in figuring out new ways to do things and having fun in the process. Having worked in a lot of industries, UX is the only one that&amp;rsquo;s really gotten me out of bed in the morning.</description>
     </item>
     <item>
       <title>ClassMate</title>

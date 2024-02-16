@@ -14,7 +14,7 @@
       <link>https://thacher.me/posts/deploy-hugo-site-to-cpanel/</link>
       <pubDate>Wed, 31 Aug 2022 12:46:01 -0400</pubDate>
       <guid>https://thacher.me/posts/deploy-hugo-site-to-cpanel/</guid>
-      <description>This website is built using a technology called Hugo. Hugo is brilliant because you can write as little or as much html, css, and js as you want. Written in Go, Hugo is a lightweight and immensely fast content management system. Think Wordpress, but using Markdown instead of PHP. Well I love it and I&amp;rsquo;ve committed to using it for my personal site. Now that I have a few weeks&amp;rsquo; experience under my belt, it&amp;rsquo;s time to get serious about deployment and organization.</description>
+      <description>This website is built using a technology called Hugo. Hugo is brilliant because you can write as little or as much html, css, and js as you want. Written in Go, Hugo is a lightweight and immensely fast static site generator. Think Wordpress, but using Markdown instead of PHP. Well I love it and I&amp;rsquo;ve committed to using it for my personal site. Now that I have a few weeks&amp;rsquo; experience under my belt, it&amp;rsquo;s time to get serious about deployment and organization.</description>
     </item>
   </channel>
 </rss>

@@ -7,15 +7,8 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 24 Jan 2024 13:13:47 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jan 2024 12:17:22 -0500</lastBuildDate>
     <atom:link href="https://thacher.me/portfolio/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Modern Web App Authentication</title>
-      <link>https://thacher.me/portfolio/caravel-login/</link>
-      <pubDate>Wed, 24 Jan 2024 13:13:47 -0500</pubDate>
-      <guid>https://thacher.me/portfolio/caravel-login/</guid>
-      <description>A high-fidelity authentication experience I designed for a cloud-based retail suite.</description>
-    </item>
     <item>
       <title>Negotiation App</title>
       <link>https://thacher.me/portfolio/negotiate/</link>
