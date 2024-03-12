@@ -2,28 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://thacher.me/portfolio/case-study-taco-bell-app/</loc>
+    <lastmod>2024-02-04T12:13:59-05:00</lastmod>
+  </url><url>
+    <loc>https://thacher.me/portfolio/</loc>
+    <lastmod>2024-02-04T12:13:59-05:00</lastmod>
+  </url><url>
+    <loc>https://thacher.me/</loc>
+    <lastmod>2024-02-04T12:13:59-05:00</lastmod>
+  </url><url>
     <loc>https://thacher.me/posts/</loc>
     <lastmod>2024-01-28T16:40:30-05:00</lastmod>
   </url><url>
     <loc>https://thacher.me/posts/working-with-product/</loc>
     <lastmod>2024-01-28T16:40:30-05:00</lastmod>
   </url><url>
-    <loc>https://thacher.me/</loc>
-    <lastmod>2024-01-28T16:40:30-05:00</lastmod>
-  </url><url>
     <loc>https://thacher.me/portfolio/negotiate/</loc>
-    <lastmod>2024-01-24T12:17:22-05:00</lastmod>
-  </url><url>
-    <loc>https://thacher.me/portfolio/</loc>
     <lastmod>2024-01-24T12:17:22-05:00</lastmod>
   </url><url>
     <loc>https://thacher.me/portfolio/smart-remotes/</loc>
     <lastmod>2023-10-12T14:35:03-05:00</lastmod>
   </url><url>
-    <loc>https://thacher.me/posts/deploy-hugo-site-to-cpanel/</loc>
+    <loc>https://thacher.me/tags/dev/</loc>
     <lastmod>2022-08-31T12:46:01-04:00</lastmod>
   </url><url>
-    <loc>https://thacher.me/tags/dev/</loc>
+    <loc>https://thacher.me/posts/deploy-hugo-site-to-cpanel/</loc>
     <lastmod>2022-08-31T12:46:01-04:00</lastmod>
   </url><url>
     <loc>https://thacher.me/tags/</loc>

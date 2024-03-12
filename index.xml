@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 28 Jan 2024 16:40:30 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 04 Feb 2024 12:13:59 -0500</lastBuildDate>
     <atom:link href="https://thacher.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Case Study - Taco Bell App</title>
+      <link>https://thacher.me/portfolio/case-study-taco-bell-app/</link>
+      <pubDate>Sun, 04 Feb 2024 12:13:59 -0500</pubDate>
+      <guid>https://thacher.me/portfolio/case-study-taco-bell-app/</guid>
+      <description>Taco Bell, a Yum Brands subsidiary and beloved comfort food provider, made over $2,000,000,000 last year. And yet, somehow, it feels like they spent about $100 on a UX team for their mobile app. I discovered this in mid 2020 when they took my favorite item, the Quesarito, off of the menu and made it an &amp;ldquo;app exclusive.&amp;rdquo; Frustrated, but not defeated, I dutifully installed the Taco Bell app on my iPhone and got my Quesarito.</description>
+    </item>
     <item>
       <title>Pushing Back on Product Partners</title>
       <link>https://thacher.me/posts/working-with-product/</link>
@@ -33,7 +40,7 @@ Problem Statement Negotiating on digital marketplaces typically follows a consis
       <description>According to a 2023 study by Hub Research, 74% of TV households have a smart TV. Statista says there are 125 million TV households in the United stats. That means that nearly 93 million American homes have smart TVs. That&amp;rsquo;s a lot of smart TVs. It&amp;rsquo;s safe to say that the smart TV has kind of become an integral part of the modern American home. And I think the en masse move to the smart TV makes a lot of sense.</description>
     </item>
     <item>
-      <title>Deploy Hugo Site to cPanel</title>
+      <title>How to Deploy your Hugo Site to cPanel Using GitHub Actions</title>
       <link>https://thacher.me/posts/deploy-hugo-site-to-cpanel/</link>
       <pubDate>Wed, 31 Aug 2022 12:46:01 -0400</pubDate>
       <guid>https://thacher.me/posts/deploy-hugo-site-to-cpanel/</guid>
